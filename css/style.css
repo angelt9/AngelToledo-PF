@@ -1,0 +1,895 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* GRID INDEX */
+.index {
+  background-color: #313333;
+  /* PROOVEDORES */ }
+  .index article .section {
+    background-color: #343b3b;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center; }
+    .index article .section h4 {
+      padding: 1rem;
+      font-size: 1.8rem; }
+    .index article .section p {
+      padding: 1rem;
+      line-height: 2rem; }
+    .index article .section a {
+      padding: 1rem; }
+      .index article .section a button {
+        background-color: #1d2020;
+        border: none;
+        color: #E7F6F2;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .3s; }
+        .index article .section a button:hover {
+          color: #397686; }
+  .index article .section2 {
+    background-color: #2C3333;
+    display: flex;
+    justify-content: center; }
+    .index article .section2 img {
+      width: 32rem; }
+  .index .provs {
+    background-color: #313333;
+    padding: 1rem; }
+    .index .provs h2 {
+      text-align: center; }
+    .index .provs div {
+      padding: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      align-content: center; }
+    .index .provs a img {
+      width: 10rem;
+      background-color: #3F4B4B;
+      padding: .6rem;
+      border: #4a8897 solid;
+      border-radius: 1rem; }
+
+/* GRID GUIA */
+.guia main div .libro {
+  padding: 1rem;
+  background-color: #414e52;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .guia main div .libro p {
+    text-align: center;
+    line-height: 2rem; }
+  .guia main div .libro h4,
+  .guia main div .libro h2 {
+    line-height: 2rem;
+    padding: 1rem; }
+  .guia main div .libro button {
+    background-color: #2C3333;
+    border: none;
+    color: #E7F6F2;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s; }
+    .guia main div .libro button:hover {
+      color: #397686; }
+  .guia main div .libro ol li {
+    line-height: 2rem; }
+
+.guia main div .foto {
+  background-color: #313333;
+  padding: 1rem;
+  display: flex;
+  justify-content: center; }
+
+.guia .comments {
+  background-color: #2C3333; }
+  .guia .comments div div .comment {
+    background-color: #3F4B4B;
+    padding: 1rem;
+    border-radius: .4rem;
+    margin: 1rem; }
+  .guia .comments textarea {
+    background-color: #31535c;
+    border: none;
+    color: #E7F6F2;
+    padding: 1rem; }
+  .guia .comments input {
+    border: none;
+    padding: 1rem;
+    color: #E7F6F2;
+    font-size: 1rem;
+    background-color: #537070;
+    cursor: pointer; }
+
+/* GRID PRODUCTOS */
+.products .merch {
+  padding: 1rem;
+  background-color: #414e52;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+  .products .merch a img {
+    width: 22rem;
+    padding: .8rem;
+    border-radius: 1.4rem; }
+
+.products .cats {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #313333;
+  font-size: 1.2rem; }
+  .products .cats div button {
+    padding: .4rem; }
+
+/* GRID SERVICIOS */
+.services {
+  background-color: #414E52; }
+  .services main .method {
+    padding: 1rem;
+    background-color: #2C3333;
+    text-align: center; }
+    .services main .method div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .services main .method div h2 {
+        padding: 1rem; }
+      .services main .method div p {
+        padding: 1rem;
+        line-height: 2rem; }
+    .services main .method .foto_serv {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .services main .method .foto_serv img {
+        width: 32rem;
+        border-radius: 1rem; }
+  .services main .plans {
+    padding: 1rem;
+    background-color: #3f4b4b;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .services main .plans .card {
+      width: 20rem;
+      margin: 1rem;
+      background-color: #2C3333; }
+      .services main .plans .card div h3 {
+        padding: .4rem; }
+    .services main .plans .bg-card {
+      width: 20rem;
+      background-color: #2C3333;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border-bottom-left-radius: .4rem;
+      border-bottom-right-radius: .4rem; }
+    .services main .plans .w-img {
+      width: 20rem; }
+    .services main .plans .df-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+    .services main .plans .boton {
+      font-family: 'Poppins', sans-serif;
+      background-color: #313D3d;
+      border-color: transparent;
+      font-weight: 600;
+      padding: 1rem;
+      border-radius: .4rem; }
+      .services main .plans .boton a:hover {
+        color: #8cbac4; }
+    .services main .plans .txt-center {
+      text-align: center; }
+    .services main .plans .border-card {
+      background-color: #2C3333;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-top-left-radius: .6rem;
+      border-top-right-radius: .6rem; }
+
+/* GRID NOSOTROS */
+.us {
+  background-color: #1e2222; }
+  .us main div .whatis {
+    background-color: #444c4c;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly; }
+    .us main div .whatis p {
+      padding: 1rem;
+      line-height: 2rem; }
+    .us main div .whatis h2 {
+      padding: 1rem; }
+  .us main div .maps {
+    background-color: #313d3d;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
+    .us main div .maps h2 {
+      padding: 1rem; }
+  .us div ul {
+    background-color: #313333;
+    list-style: none;
+    padding: 1rem; }
+    .us div ul li {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      padding: 1rem;
+      border-bottom: 1px solid #8cbac4; }
+  .us div .transition,
+  .us div ul li i:before,
+  .us div ul li i:after,
+  .us div p {
+    transition: all 0.25s ease-in-out; }
+  .us div ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 0; }
+  .us div ul li i:before,
+  .us div ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #8cbac4;
+    width: 3px;
+    height: 9px; }
+  .us div ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg); }
+  .us div ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg); }
+  .us div ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0; }
+  .us div ul li input[type=checkbox]:checked ~ p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%); }
+  .us div ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg); }
+  .us div ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg); }
+  .us div .formu {
+    padding: 1rem;
+    background-color: #2C3333;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .us div .formu form {
+      display: flex;
+      justify-content: center; }
+      .us div .formu form fieldset {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        border: #251e25 2px solid;
+        background-color: #4e5757;
+        border-radius: .8rem; }
+        .us div .formu form fieldset legend {
+          padding: 1rem;
+          font-weight: 600;
+          font-size: 1.4rem; }
+        .us div .formu form fieldset div {
+          padding: 1rem;
+          display: flex;
+          flex-direction: column; }
+          .us div .formu form fieldset div input {
+            background-color: #2C3333;
+            border: none;
+            color: #E7F6F2;
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: 300; }
+          .us div .formu form fieldset div #texto {
+            background-color: #2C3333;
+            border: none;
+            width: 20rem;
+            height: 10rem;
+            color: #E7F6F2; }
+          .us div .formu form fieldset div a input {
+            cursor: pointer;
+            transition: .3s; }
+            .us div .formu form fieldset div a input:hover {
+              color: #8cbac4; }
+        .us div .formu form fieldset .genre {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
+
+/* INDEX */
+@media screen and (max-width: 1200px) {
+  .index,
+  .guia,
+  .products,
+  .services,
+  .us {
+    font-size: 94%; }
+    .index header nav div a i,
+    .guia header nav div a i,
+    .products header nav div a i,
+    .services header nav div a i,
+    .us header nav div a i {
+      font-size: 2.2rem; }
+    .index header nav div a,
+    .guia header nav div a,
+    .products header nav div a,
+    .services header nav div a,
+    .us header nav div a {
+      font-size: 2.2rem; }
+    .index header nav .nav_menu li a,
+    .guia header nav .nav_menu li a,
+    .products header nav .nav_menu li a,
+    .services header nav .nav_menu li a,
+    .us header nav .nav_menu li a {
+      font-size: 1.1rem; }
+    .index footer .feed h6,
+    .guia footer .feed h6,
+    .products footer .feed h6,
+    .services footer .feed h6,
+    .us footer .feed h6 {
+      font-size: 144%; }
+    .index footer .redes h3,
+    .guia footer .redes h3,
+    .products footer .redes h3,
+    .services footer .redes h3,
+    .us footer .redes h3 {
+      font-size: 144%; }
+    .index footer .redes ul li a i,
+    .guia footer .redes ul li a i,
+    .products footer .redes ul li a i,
+    .services footer .redes ul li a i,
+    .us footer .redes ul li a i {
+      font-size: 144%; }
+    .index footer .copy h6,
+    .guia footer .copy h6,
+    .products footer .copy h6,
+    .services footer .copy h6,
+    .us footer .copy h6 {
+      font-size: 144%; }
+  .index article .section2 img {
+    width: 28rem; }
+  .index .provs div a img {
+    width: 8rem; }
+  .guia .comments img {
+    width: 2rem; }
+  .products main div .merch a img {
+    width: 18rem; }
+  .services main .method .foto_serv img {
+    width: 26rem; }
+  .services main .plans .card {
+    width: 18rem; }
+  .services main .plans .bg-card {
+    width: 18rem; }
+  .services main .plans .w-img {
+    width: 18rem; }
+  .us main .form form fieldset div {
+    padding: 1rem; } }
+
+@media screen and (max-width: 992px) {
+  .index,
+  .guia,
+  .products,
+  .services,
+  .us {
+    font-size: 90%; }
+    .index header,
+    .guia header,
+    .products header,
+    .services header,
+    .us header {
+      height: 8rem; }
+      .index header nav,
+      .guia header nav,
+      .products header nav,
+      .services header nav,
+      .us header nav {
+        flex-direction: column; }
+    .index main,
+    .guia main,
+    .products main,
+    .services main,
+    .us main {
+      padding-top: 8rem; }
+    .index footer .feed h6,
+    .guia footer .feed h6,
+    .products footer .feed h6,
+    .services footer .feed h6,
+    .us footer .feed h6 {
+      font-size: 140%; }
+    .index footer .redes h3,
+    .guia footer .redes h3,
+    .products footer .redes h3,
+    .services footer .redes h3,
+    .us footer .redes h3 {
+      font-size: 140%; }
+    .index footer .redes ul li a i,
+    .guia footer .redes ul li a i,
+    .products footer .redes ul li a i,
+    .services footer .redes ul li a i,
+    .us footer .redes ul li a i {
+      font-size: 140%; }
+    .index footer .copy h6,
+    .guia footer .copy h6,
+    .products footer .copy h6,
+    .services footer .copy h6,
+    .us footer .copy h6 {
+      font-size: 140%; }
+  .index article .section2 img {
+    width: 24rem; }
+  .guia main div .foto img {
+    width: 22rem; }
+  .products main div .cats {
+    display: flex;
+    flex-direction: row; }
+    .products main div .cats div button {
+      font-size: .9rem; }
+  .services main .method .foto_serv img {
+    width: 24rem; }
+  .services main .plans {
+    flex-direction: column; }
+    .services main .plans .card {
+      width: 20rem; }
+    .services main .plans .bg-card {
+      width: 20rem; }
+    .services main .plans .w-img {
+      width: 20rem; } }
+
+@media screen and (max-width: 768px) {
+  .index,
+  .guia,
+  .products,
+  .services,
+  .us {
+    font-size: 86%; }
+    .index header,
+    .guia header,
+    .products header,
+    .services header,
+    .us header {
+      height: 7.4rem; }
+      .index header nav div a i,
+      .guia header nav div a i,
+      .products header nav div a i,
+      .services header nav div a i,
+      .us header nav div a i {
+        font-size: 1.8rem; }
+      .index header nav div a,
+      .guia header nav div a,
+      .products header nav div a,
+      .services header nav div a,
+      .us header nav div a {
+        font-size: 1.8rem; }
+      .index header nav ul li a,
+      .guia header nav ul li a,
+      .products header nav ul li a,
+      .services header nav ul li a,
+      .us header nav ul li a {
+        font-size: 1rem; }
+    .index main,
+    .guia main,
+    .products main,
+    .services main,
+    .us main {
+      padding-top: 7.4rem; }
+    .index footer .feed h6,
+    .guia footer .feed h6,
+    .products footer .feed h6,
+    .services footer .feed h6,
+    .us footer .feed h6 {
+      font-size: 130%; }
+    .index footer .redes h3,
+    .guia footer .redes h3,
+    .products footer .redes h3,
+    .services footer .redes h3,
+    .us footer .redes h3 {
+      font-size: 130%; }
+    .index footer .redes ul li a i,
+    .guia footer .redes ul li a i,
+    .products footer .redes ul li a i,
+    .services footer .redes ul li a i,
+    .us footer .redes ul li a i {
+      font-size: 130%; }
+    .index footer .copy h6,
+    .guia footer .copy h6,
+    .products footer .copy h6,
+    .services footer .copy h6,
+    .us footer .copy h6 {
+      font-size: 130%; }
+  .index article .section2 img {
+    width: 18rem; }
+  .index .provs div a {
+    padding: 1rem; }
+  .index .provs div a img {
+    width: 6rem; }
+  .products main div .merch a img {
+    width: 12rem; }
+  .services {
+    background-color: #1e2222; }
+    .services main .plans {
+      flex-direction: column; }
+      .services main .plans .card {
+        width: 18rem; }
+      .services main .plans .bg-card {
+        width: 18rem; }
+      .services main .plans .w-img {
+        width: 18rem; }
+    .services main .method .foto_serv img {
+      width: 20rem; } }
+
+@media screen and (max-width: 576px) {
+  .index header,
+  .guia header,
+  .products header,
+  .services header,
+  .us header {
+    height: 5.4rem; }
+    .index header nav,
+    .guia header nav,
+    .products header nav,
+    .services header nav,
+    .us header nav {
+      flex-direction: row;
+      justify-content: space-between; }
+      .index header nav div a i,
+      .guia header nav div a i,
+      .products header nav div a i,
+      .services header nav div a i,
+      .us header nav div a i {
+        font-size: 2rem; }
+      .index header nav div a,
+      .guia header nav div a,
+      .products header nav div a,
+      .services header nav div a,
+      .us header nav div a {
+        font-size: 2rem; }
+      .index header nav .nav_toggle,
+      .guia header nav .nav_toggle,
+      .products header nav .nav_toggle,
+      .services header nav .nav_toggle,
+      .us header nav .nav_toggle {
+        display: block; }
+      .index header nav .nav_menu,
+      .guia header nav .nav_menu,
+      .products header nav .nav_menu,
+      .services header nav .nav_menu,
+      .us header nav .nav_menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: #414E52;
+        width: 100%;
+        position: fixed;
+        top: 5.4rem;
+        margin: 0;
+        overflow: auto;
+        height: calc(100% - 5.4rem);
+        left: 100%;
+        transition: left 0.3s; }
+        .index header nav .nav_menu li,
+        .guia header nav .nav_menu li,
+        .products header nav .nav_menu li,
+        .services header nav .nav_menu li,
+        .us header nav .nav_menu li {
+          line-height: 5.4rem; }
+      .index header nav .nav_menu_visible,
+      .guia header nav .nav_menu_visible,
+      .products header nav .nav_menu_visible,
+      .services header nav .nav_menu_visible,
+      .us header nav .nav_menu_visible {
+        left: 0; }
+  .index main,
+  .guia main,
+  .products main,
+  .services main,
+  .us main {
+    padding-top: 5.4rem; }
+  .index footer .feed h6,
+  .guia footer .feed h6,
+  .products footer .feed h6,
+  .services footer .feed h6,
+  .us footer .feed h6 {
+    font-size: 124%; }
+  .index footer .redes h3,
+  .guia footer .redes h3,
+  .products footer .redes h3,
+  .services footer .redes h3,
+  .us footer .redes h3 {
+    font-size: 124%; }
+  .index footer .redes ul li a i,
+  .guia footer .redes ul li a i,
+  .products footer .redes ul li a i,
+  .services footer .redes ul li a i,
+  .us footer .redes ul li a i {
+    font-size: 124%; }
+  .index footer .copy h6,
+  .guia footer .copy h6,
+  .products footer .copy h6,
+  .services footer .copy h6,
+  .us footer .copy h6 {
+    font-size: 124%; }
+  .index article .section2 img {
+    width: 14rem; }
+  .index .provs div {
+    flex-direction: column; }
+    .index .provs div a img {
+      width: 9rem; }
+  .guia main div .foto img {
+    width: 16rem; }
+  .products main div .merch a img {
+    width: 10rem; }
+  .services main .plans .card {
+    width: 16rem; }
+  .services main .plans .bg-card {
+    width: 16rem; }
+  .services main .plans .w-img {
+    width: 16rem; }
+  .services main .method .foto_serv img {
+    width: 18rem; }
+  .us div .formu form fieldset {
+    width: 94%; }
+    .us div .formu form fieldset div #texto {
+      width: 16rem; } }
+
+@media screen and (max-width: 380px) {
+  .index,
+  .guia,
+  .products,
+  .services,
+  .us {
+    font-size: 90%; }
+    .index header,
+    .guia header,
+    .products header,
+    .services header,
+    .us header {
+      height: 4rem; }
+      .index header nav div a,
+      .guia header nav div a,
+      .products header nav div a,
+      .services header nav div a,
+      .us header nav div a {
+        font-size: 1.1rem; }
+      .index header nav div a i,
+      .guia header nav div a i,
+      .products header nav div a i,
+      .services header nav div a i,
+      .us header nav div a i {
+        font-size: 1.1rem; }
+      .index header nav .nav_toggle,
+      .guia header nav .nav_toggle,
+      .products header nav .nav_toggle,
+      .services header nav .nav_toggle,
+      .us header nav .nav_toggle {
+        font-size: 1.1rem; }
+      .index header nav .nav_menu,
+      .guia header nav .nav_menu,
+      .products header nav .nav_menu,
+      .services header nav .nav_menu,
+      .us header nav .nav_menu {
+        top: 4rem;
+        height: calc(100% - 4rem); }
+    .index main,
+    .guia main,
+    .products main,
+    .services main,
+    .us main {
+      padding-top: 4rem; }
+    .index footer .feed h6,
+    .guia footer .feed h6,
+    .products footer .feed h6,
+    .services footer .feed h6,
+    .us footer .feed h6 {
+      font-size: 110%; }
+    .index footer .redes h3,
+    .guia footer .redes h3,
+    .products footer .redes h3,
+    .services footer .redes h3,
+    .us footer .redes h3 {
+      font-size: 110%; }
+    .index footer .redes ul li a i,
+    .guia footer .redes ul li a i,
+    .products footer .redes ul li a i,
+    .services footer .redes ul li a i,
+    .us footer .redes ul li a i {
+      font-size: 110%; }
+    .index footer .copy h6,
+    .guia footer .copy h6,
+    .products footer .copy h6,
+    .services footer .copy h6,
+    .us footer .copy h6 {
+      font-size: 110%; }
+  .index article .section2 img {
+    width: 10rem; }
+  .index .provs div a img {
+    width: 6rem; }
+  .guia main div .foto img {
+    width: 8rem; }
+  .products main div .cats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .services {
+    background-color: #1e2222; }
+    .services main .plans {
+      flex-direction: column; }
+      .services main .plans .card {
+        width: 12rem; }
+      .services main .plans .bg-card {
+        width: 12rem; }
+      .services main .plans .w-img {
+        width: 12rem; }
+    .services main .method .foto_serv img {
+      width: 14rem; }
+  .us div .formu form fieldset {
+    width: 80%; }
+    .us div .formu form fieldset div {
+      padding: 1rem; }
+      .us div .formu form fieldset div #texto {
+        width: 8rem; }
+    .us div .formu form fieldset .genre {
+      flex-direction: column; } }
+
+/* general */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #E7F6F2;
+  background-color: #1e2222; }
+  body main {
+    padding-top: 5.6rem; }
+  body a {
+    text-decoration: none;
+    color: #E7F6F2; }
+
+.nomargin {
+  margin: 0; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* HEADER */
+header {
+  background-color: #1e2222;
+  position: fixed;
+  width: 100%;
+  height: 5.6rem;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  padding: 1rem; }
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    header nav div a {
+      font-size: 2.4rem;
+      padding: .4rem;
+      margin: 0;
+      transition: .3s; }
+      header nav div a:hover {
+        transform: scale(1.06);
+        color: #8cbac4; }
+    header nav div a i {
+      color: #E7F6F2;
+      font-size: 2.4rem;
+      padding: .4rem;
+      transition: .3s; }
+      header nav div a i:hover {
+        color: #8cbac4;
+        transform: scale(1.1); }
+    header nav div h1 {
+      display: none; }
+    header nav .nav_toggle {
+      color: #E7F6F2;
+      background: none;
+      border: none;
+      font-size: 2rem;
+      display: none; }
+    header nav ul {
+      display: flex;
+      text-decoration: none;
+      padding: .4rem; }
+      header nav ul li {
+        list-style: none;
+        padding: .2rem;
+        transition: .4s; }
+        header nav ul li:hover {
+          transform: scale(1.2); }
+        header nav ul li a {
+          padding: 1rem;
+          font-size: 1.2rem;
+          transition: .4s; }
+          header nav ul li a:hover {
+            color: #8cbac4; }
+
+/* FOOTER */
+footer {
+  background-color: #1e2222;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  footer .redes {
+    padding: .4rem; }
+    footer .redes h3 {
+      font-size: 1.2rem;
+      padding: 1rem;
+      text-align: center; }
+    footer .redes ul {
+      display: flex;
+      justify-content: space-evenly;
+      padding: .4rem; }
+      footer .redes ul li {
+        padding: 1rem;
+        list-style: none; }
+        footer .redes ul li a:hover {
+          color: #8cbac4; }
+        footer .redes ul li a i {
+          font-size: 1.6rem;
+          transition: .4s; }
+          footer .redes ul li a i:hover {
+            transform: scale(1.4); }
+  footer .feed {
+    text-align: center;
+    padding: .4rem; }
+    footer .feed h6 a {
+      transition: .3s; }
+      footer .feed h6 a:hover {
+        color: #8cbac4; }
+  footer .copy {
+    padding: .4rem; }
+
+/* BOOTSTRAP */
+.celeste {
+  color: #E7F6F2; }
+
+.bcg {
+  background-color: #31535c; }
+
+.bcg2 {
+  background-color: #2C3333; }
+
+.row {
+  padding: 1rem; }
+
+.accordion-button:not(.collapsed) {
+  color: #E7F6F2;
+  background-color: #343b3b; }
+
+.nomarginbt {
+  margin: 0;
+  padding: 0; }

@@ -1,0 +1,660 @@
+/* INDEX */
+@media screen and (max-width:1200px) {
+
+    .index,
+    .guia,
+    .products,
+    .services,
+    .us {
+        font-size: 94%;
+
+        header {
+            nav {
+                div {
+                    a i {
+                        font-size: 2.2rem;
+                    }
+
+                    a {
+                        font-size: 2.2rem;
+                    }
+                }
+
+                .nav_menu {
+                    li {
+                        a {
+
+                            font-size: 1.1rem;
+
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            .feed{
+                h6{
+                    font-size: 144%;
+                }
+            }
+            .redes{
+                h3{
+                    font-size: 144%;
+                }
+                ul li a i{
+                    font-size: 144%;
+                }
+            }
+            .copy{
+                h6{
+                    font-size: 144%;
+                }
+            }
+        }
+    }
+
+    .index {
+        article {
+            .section2 {
+                img {
+                    width: 28rem;
+                }
+            }
+        }
+
+        .provs div a img {
+            width: 8rem;
+        }
+    }
+
+    .guia {
+        .comments img {
+            width: 2rem;
+        }
+
+    }
+
+    .products {
+        main {
+            div {
+                .merch a img {
+                    width: 18rem;
+                }
+            }
+        }
+    }
+
+    .services {
+        main {
+            .method{
+                .foto_serv img {
+                    width: 26rem;
+                }
+            }
+            .plans {
+                .card {
+                    width: 18rem;
+                }
+
+                .bg-card {
+                    width: 18rem;
+                }
+
+                .w-img {
+                    width: 18rem;
+                }
+            }
+        }
+    }
+
+    .us {
+        main {
+            .form {
+                form {
+                    fieldset {
+                        div {
+                            padding: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:992px) {
+
+    .index,
+    .guia,
+    .products,
+    .services,
+    .us {
+        font-size: 90%;
+
+        header {
+            height: 8rem;
+
+            nav {
+                flex-direction: column;
+            }
+        }
+
+        main {
+            padding-top: 8rem;
+        }
+        footer{
+            .feed{
+                h6{
+                    font-size: 140%;
+                }
+            }
+            .redes{
+                h3{
+                    font-size: 140%;
+                }
+                ul li a i{
+                    font-size: 140%;
+                }
+            }
+            .copy{
+                h6{
+                    font-size: 140%;
+                }
+            }
+        }
+    }
+
+    .index {
+        article {
+            .section2 img {
+                width: 24rem;
+            }
+        }
+    }
+
+    .guia {
+        main {
+            div {
+                .foto {
+                    img {
+                        width: 22rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .products {
+        main {
+            div {
+                .cats {
+                    display: flex;
+                    flex-direction: row;
+
+                    div {
+                        button {
+                            font-size: .9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .services {
+        main {
+            .method{
+                .foto_serv img {
+                    width: 24rem;
+                }
+            }
+            .plans {
+                flex-direction: column;
+
+                .card {
+                    width: 20rem;
+                }
+
+                .bg-card {
+                    width: 20rem;
+                }
+
+                .w-img {
+                    width: 20rem;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .index,
+    .guia,
+    .products,
+    .services,
+    .us {
+        font-size: 86%;
+
+        header {
+            height: 7.4rem;
+
+            nav {
+                div {
+                    a i {
+                        font-size: 1.8rem;
+                    }
+
+                    a {
+                        font-size: 1.8rem;
+                    }
+                }
+
+                ul li a {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        main {
+            padding-top: 7.4rem;
+        }
+
+        footer{
+            .feed{
+                h6{
+                    font-size: 130%;
+                }
+            }
+            .redes{
+                h3{
+                    font-size: 130%;
+                }
+                ul li a i{
+                    font-size: 130%;
+                }
+            }
+            .copy{
+                h6{
+                    font-size: 130%;
+                }
+            }
+        }
+    }
+
+    .index {
+        article {
+            .section2 {
+                img {
+                    width: 18rem;
+                }
+            }
+        }
+
+        .provs div a {
+            padding: 1rem;
+        }
+
+        .provs div a img {
+            width: 6rem;
+        }
+    }
+
+    .products {
+        main {
+            div {
+                .merch {
+                    a img {
+                        width: 12rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .services {
+        background-color: #1e2222;
+
+        main {
+            .plans {
+                flex-direction: column;
+
+                .card {
+                    width: 18rem;
+                }
+
+                .bg-card {
+                    width: 18rem;
+                }
+
+                .w-img {
+                    width: 18rem;
+                }
+            }
+            .method{
+                .foto_serv img {
+                    width: 20rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:576px) {
+
+    .index,
+    .guia,
+    .products,
+    .services,
+    .us {
+
+        header {
+            height: 5.4rem;
+
+            nav {
+                flex-direction: row;
+                justify-content: space-between;
+
+                div {
+                    a i {
+                        font-size: 2rem;
+                    }
+
+                    a {
+                        font-size: 2rem;
+                    }
+                }
+
+                .nav_toggle {
+                    display: block;
+                }
+
+                .nav_menu {
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: $fondoGris;
+                    width: 100%;
+                    position: fixed;
+                    top: 5.4rem;
+                    margin: 0;
+                    overflow: auto;
+                    height: calc(100% - 5.4rem);
+                    left: 100%;
+                    transition: left 0.3s;
+
+                    li {
+                        line-height: 5.4rem;
+                    }
+                }
+
+                .nav_menu_visible {
+                    left: 0;
+                }
+            }
+        }
+
+        main {
+            padding-top: 5.4rem;
+        }
+
+        footer{
+            .feed{
+                h6{
+                    font-size: 124%;
+                }
+            }
+            .redes{
+                h3{
+                    font-size: 124%;
+                }
+                ul li a i{
+                    font-size: 124%;
+                }
+            }
+            .copy{
+                h6{
+                    font-size: 124%;
+                }
+            }
+        }
+    }
+
+
+    .index {
+        article {
+            .section2 img {
+                width: 14rem;
+            }
+        }
+
+        .provs div {
+            flex-direction: column;
+
+            a img {
+                width: 9rem;
+            }
+        }
+    }
+
+    .guia {
+        main {
+            div {
+                .foto img {
+                    width: 16rem;
+                }
+            }
+        }
+    }
+
+    .products {
+        main {
+            div {
+                .merch {
+                    a img {
+                        width: 10rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .services {
+
+        main {
+            .plans {
+
+                .card {
+                    width: 16rem;
+                }
+
+                .bg-card {
+                    width: 16rem;
+                }
+
+                .w-img {
+                    width: 16rem;
+                }
+            }
+            .method{
+                .foto_serv img {
+                    width: 18rem;
+                }
+            }
+        }
+    }
+
+    .us {
+        div {
+            .formu {
+                form {
+
+
+                    fieldset {
+                        width: 94%;
+                        div {
+                            #texto {
+                                width: 16rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:380px) {
+
+    .index,
+    .guia,
+    .products,
+    .services,
+    .us {
+        font-size: 90%;
+
+        header {
+            height: 4rem;
+
+            nav {
+                div {
+                    a {
+                        font-size: 1.1rem;
+                    }
+
+                    a i {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                .nav_toggle {
+                    font-size: 1.1rem;
+                }
+
+                .nav_menu {
+                    top: 4rem;
+                    height: calc(100% - 4rem);
+                }
+            }
+        }
+
+        main {
+            padding-top: 4rem;
+        }
+
+        footer{
+            .feed{
+                h6{
+                    font-size: 110%;
+                }
+            }
+            .redes{
+                h3{
+                    font-size: 110%;
+                }
+                ul li a i{
+                    font-size: 110%;
+                }
+            }
+            .copy{
+                h6{
+                    font-size: 110%;
+                }
+            }
+        }
+    }
+
+    .index {
+        article {
+            .section2 img {
+                width: 10rem;
+            }
+        }
+
+        .provs {
+            div {
+                a img {
+                    width: 6rem;
+                }
+            }
+        }
+    }
+
+    .guia {
+        main {
+            div{
+                .foto img {
+                    width: 8rem;
+                }
+            }
+            }
+    }
+
+    .products {
+        main {
+            div {
+                .cats {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .services {
+        background-color: #1e2222;
+
+        main {
+            .plans {
+                flex-direction: column;
+
+                .card {
+                    width: 12rem;
+                }
+
+                .bg-card {
+                    width: 12rem;
+                }
+
+                .w-img {
+                    width: 12rem;
+                }
+            }
+            .method{
+                .foto_serv img {
+                    width: 14rem;
+                }
+            }
+        }
+    }
+
+    .us {
+        div {
+            .formu {
+                form {
+
+
+                    fieldset {
+                        width: 80%;
+                        div {
+                            padding: 1rem;
+                            #texto{
+                                width: 8rem;
+                        }
+                        
+                        }
+                        .genre{
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

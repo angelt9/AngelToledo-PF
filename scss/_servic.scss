@@ -1,0 +1,112 @@
+/* GRID SERVICIOS */
+
+.services {
+    background-color: $fondoGris;
+
+    main {
+        .method {
+            padding: 1rem;
+            background-color: #2C3333;
+            text-align: center;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    padding: 1rem;
+                }
+
+                p {
+                    padding: 1rem;
+                    line-height: 2rem;
+                }
+            }
+
+            .foto_serv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 32rem;
+                    border-radius: 1rem;
+                }
+            }
+        }
+
+        .plans {
+            padding: 1rem;
+            background-color: #3f4b4b;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .card {
+                width: 20rem;
+                margin: 1rem;
+                background-color: $fondoGris3;
+
+                div {
+                    h3 {
+                        padding: .4rem;
+                    }
+                }
+            }
+
+            .bg-card {
+                width: 20rem;
+                background-color: $fondoGris3;
+                padding: 1rem;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border-bottom-left-radius: .4rem;
+                border-bottom-right-radius: .4rem;
+            }
+
+            .w-img {
+                width: 20rem;
+            }
+
+            .df-card {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+
+            }
+
+            .boton {
+                font-family: 'Poppins', sans-serif;
+                background-color: $fondoGris6;
+                border-color: transparent;
+                font-weight: 600;
+                padding: 1rem;
+                border-radius: .4rem;
+
+                a:hover {
+                    color: $celeste2;
+                }
+            }
+
+            .txt-center {
+                text-align: center;
+            }
+
+            .border-card {
+                background-color: $fondoGris3;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border-top-left-radius: .6rem;
+                border-top-right-radius: .6rem;
+            }
+        }
+
+    }
+}
